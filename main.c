@@ -53,7 +53,7 @@ char *readFile(const char *string, int  i) {
     while (fgets(buffer, sizeof(buffer), pF) != NULL) {
         if (count  == i+1) {
             fclose(pF);
-            char *result = malloc(strlen(buffer));
+            char* result = malloc(strlen(buffer));
             if (result == NULL) {
                 printf("Memory allocation error");
                 return NULL;
