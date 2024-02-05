@@ -9,7 +9,7 @@ char *readFile(const char *string, int i);
  * *******************************
  */
 int main() {
-    char * s1 = readFile("input.txt", 0);
+    char* s1 = readFile("input.txt", 0);
     char* e1="My first love\n";
     char* ep1="My first love";
 
